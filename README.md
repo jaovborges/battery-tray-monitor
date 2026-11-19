@@ -6,7 +6,9 @@ Aplicativo nativo de bandeja para Windows, em C# / .NET 10 e WinForms. Não usa 
 
 Windows 10 **1809 (build 17763) ou posterior**, ou Windows 11. A publicação entregue é x64. Não é necessário executar como administrador.
 
-1. Abra `artifacts/win-x64-standalone/BatteryTrayMonitor.exe`. Essa versão inclui o runtime do .NET.
+**[Baixar Battery Tray Monitor para Windows x64](https://github.com/jaovborges/battery-tray-monitor/releases/latest/download/BatteryTrayMonitor-win-x64.zip)**
+
+1. Extraia o ZIP e abra `BatteryTrayMonitor.exe`. O pacote inclui o runtime do .NET. O SDK é necessário apenas para compilar o código-fonte.
 2. O aplicativo inicia na bandeja. O Windows pode colocar o ícone no menu de ícones ocultos, acessível pela seta ao lado do relógio.
 3. Clique com o botão direito no ícone de controle e escolha **Mostrar dispositivos**. Marque **Bandeja** nos dispositivos desejados.
    Para **G502 LIGHTSPEED e G935**, mantenha o G HUB em execução e a opção **Usar níveis do Logitech G HUB** ativada na aba Geral (padrão). A coluna Fonte deve mostrar **Logitech G HUB**. O monitor exibe o percentual fornecido por ele, arredondado para inteiro; os detalhes preservam o valor decimal e o estado de carregamento.
